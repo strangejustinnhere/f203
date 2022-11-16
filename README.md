@@ -21,9 +21,9 @@ class Main(Frame):
 if __name__ == '__main__':
     root = Tk()
     root["bg"] = "#000"
-    root.geometry("485x550+200+200")
-    root.title("Калькулятор")
-    root.resizable(False, False)
+    root.geometry("488x554+210+200")
+    root.title("calculator")
+    root.resizable(true, False)
     app = Main(root)
     app.pack()
     root.mainloop()
